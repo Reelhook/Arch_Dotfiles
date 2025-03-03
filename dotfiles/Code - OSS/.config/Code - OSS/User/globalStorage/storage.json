@@ -7,7 +7,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1740955165225"
+                "backupFolder": "1740976438521"
             }
         ]
     },
@@ -17,18 +17,18 @@
             "file:///home/steven/.config/picom": "__default__profile__"
         },
         "emptyWindows": {
-            "1740955165225": "__default__profile__"
+            "1740976438521": "__default__profile__"
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/steven/.config/Code - OSS/Backups/1740955165225",
+            "backupPath": "/home/steven/.config/Code - OSS/Backups/1740976438521",
             "uiState": {
-                "mode": 1,
-                "x": 962,
-                "y": 64,
-                "width": 956,
-                "height": 977,
+                "mode": 0,
+                "x": 2,
+                "y": 32,
+                "width": 1916,
+                "height": 1009,
                 "zoomLevel": 2
             }
         },
@@ -149,6 +149,17 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/steven/.bashrc",
+                                        "path": "/home/steven/.bashrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.bashrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/steven/github/archsetup/bashScripts/copyConfig.sh",
                                         "path": "/home/steven/github/archsetup/bashScripts/copyConfig.sh",
                                         "scheme": "file"
@@ -210,17 +221,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/dotfiles/alacritty/.config/alacritty/alacritty.toml"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/steven/.bashrc",
-                                        "path": "/home/steven/.bashrc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.bashrc"
                                 },
                                 {
                                     "id": "openRecentFile",
