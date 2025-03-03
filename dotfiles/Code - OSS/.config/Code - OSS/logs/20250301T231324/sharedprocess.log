@@ -1,0 +1,14 @@
+2025-03-01 23:17:16.724 [info] Getting Manifest... tombi-toml.tombi
+2025-03-01 23:17:17.472 [info] Installing extension: tombi-toml.tombi {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/steven/.vscode-oss/extensions/extensions.json","path":"/home/steven/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-13T18:45:48.570Z"}}
+2025-03-01 23:17:20.341 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-03-01 23:17:20.341 [info] Extension signature verification is not done: tombi-toml.tombi
+2025-03-01 23:17:21.029 [info] Extracted extension to file:///home/steven/.vscode-oss/extensions/tombi-toml.tombi-0.2.14-linux-x64: tombi-toml.tombi
+2025-03-01 23:17:21.045 [info] Renamed to /home/steven/.vscode-oss/extensions/tombi-toml.tombi-0.2.14-linux-x64
+2025-03-01 23:17:21.077 [info] Extension installed successfully: tombi-toml.tombi vscode-userdata:/home/steven/.vscode-oss/extensions/extensions.json
+2025-03-01 23:17:34.052 [info] Getting Manifest... tamasfe.even-better-toml
+2025-03-01 23:17:34.247 [info] Installing extension: tamasfe.even-better-toml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/steven/.vscode-oss/extensions/extensions.json","path":"/home/steven/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-13T18:45:48.570Z"}}
+2025-03-01 23:17:38.208 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-03-01 23:17:38.209 [info] Extension signature verification is not done: tamasfe.even-better-toml
+2025-03-01 23:17:40.149 [info] Extracted extension to file:///home/steven/.vscode-oss/extensions/tamasfe.even-better-toml-0.21.2-universal: tamasfe.even-better-toml
+2025-03-01 23:17:40.162 [info] Renamed to /home/steven/.vscode-oss/extensions/tamasfe.even-better-toml-0.21.2-universal
+2025-03-01 23:17:40.195 [info] Extension installed successfully: tamasfe.even-better-toml vscode-userdata:/home/steven/.vscode-oss/extensions/extensions.json
