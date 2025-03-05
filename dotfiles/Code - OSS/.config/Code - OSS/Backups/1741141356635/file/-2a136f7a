@@ -1,0 +1,11 @@
+file:///home/steven/github/archsetup/Scripts/cheatSheet.sh {"mtime":1741141634463,"ctime":1741141632074,"size":184,"etag":"3dr4ggqoi5t","orphaned":false,"typeId":""}
+#!/bin/bash
+
+# Check if a command argument is provided
+if [ -z "$1" ]; then
+  echo "Usage: $0 <command>"
+  exit 1
+fi
+
+# Fetch the cheat sheet for the provided command
+curl cheat.sh/$1

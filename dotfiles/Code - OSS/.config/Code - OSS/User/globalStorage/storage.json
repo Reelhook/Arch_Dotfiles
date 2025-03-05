@@ -7,7 +7,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1740976438521"
+                "backupFolder": "1741141356635"
             }
         ]
     },
@@ -17,18 +17,18 @@
             "file:///home/steven/.config/picom": "__default__profile__"
         },
         "emptyWindows": {
-            "1740976438521": "__default__profile__"
+            "1741141356635": "__default__profile__"
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/steven/.config/Code - OSS/Backups/1740976438521",
+            "backupPath": "/home/steven/.config/Code - OSS/Backups/1741141356635",
             "uiState": {
-                "mode": 0,
+                "mode": 1,
                 "x": 2,
-                "y": 32,
+                "y": 553,
                 "width": 1916,
-                "height": 1009,
+                "height": 488,
                 "zoomLevel": 2
             }
         },
@@ -149,6 +149,28 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/steven/github/archsetup/bashConfig/bashrc",
+                                        "path": "/home/steven/github/archsetup/bashConfig/bashrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github/archsetup/bashConfig/bashrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/steven/github/archsetup/Scripts/cheatSheet.sh",
+                                        "path": "/home/steven/github/archsetup/Scripts/cheatSheet.sh",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github/archsetup/Scripts/cheatSheet.sh"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/steven/.bashrc",
                                         "path": "/home/steven/.bashrc",
                                         "scheme": "file"
@@ -234,17 +256,6 @@
                                     "label": "~/fixScreen.sh"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///etc/X11/xorg.conf",
-                                        "path": "/etc/X11/xorg.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/etc/X11/xorg.conf"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -289,8 +300,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
