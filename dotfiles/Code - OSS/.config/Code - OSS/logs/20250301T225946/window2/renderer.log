@@ -1,4 +1,0 @@
-2025-03-01 22:59:49.034 [info] Started local extension host with pid 8622.
-2025-03-01 22:59:52.871 [info] [perf] Render performance baseline is 48ms
-2025-03-01 23:00:31.782 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
-2025-03-01 23:00:33.387 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/steven/fixScreen.sh 

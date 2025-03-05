@@ -27,7 +27,7 @@
                 "mode": 1,
                 "x": 2,
                 "y": 553,
-                "width": 956,
+                "width": 1916,
                 "height": 488,
                 "zoomLevel": 2
             }
@@ -149,6 +149,28 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/steven/new",
+                                        "path": "/home/steven/new",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/new"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/steven/findLinks.sh",
+                                        "path": "/home/steven/findLinks.sh",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/findLinks.sh"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/steven/github/archsetup/bashConfig/bashrc",
                                         "path": "/home/steven/github/archsetup/bashConfig/bashrc",
                                         "scheme": "file"
@@ -232,28 +254,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/dotfiles/alacritty/.config/alacritty/catppuccin-mocha.toml"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/steven/dotfiles/alacritty/.config/alacritty/alacritty.toml",
-                                        "path": "/home/steven/dotfiles/alacritty/.config/alacritty/alacritty.toml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/dotfiles/alacritty/.config/alacritty/alacritty.toml"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/steven/fixScreen.sh",
-                                        "path": "/home/steven/fixScreen.sh",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/fixScreen.sh"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -388,7 +388,8 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -919,7 +920,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "checked": true
                     }
                 ]
             },
