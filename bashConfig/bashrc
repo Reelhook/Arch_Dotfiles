@@ -94,7 +94,7 @@ source "$BASH_IT"/bash_it.sh
 neofetch
 alias FIXSCREEN='xrandr --output Virtual-1 --mode "1920x1080"'
 alias SSH_HYPERV='ssh root@192.168.50.184 -X'
-alias CHEATSHEET='bash /home/steven/github/archsetup/Scripts/cheatSheet.sh'
+alias CHEATSHEET='bash /home/steven/github/archsetup/scripts/cheatSheet.sh'
 alias WEATHER='curl wttr.in'
 alias BACK='cd $OLDPWD'
 
