@@ -8,3 +8,5 @@
 2025-03-04 23:24:00.955 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
 2025-03-04 23:24:01.000 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
 2025-03-04 23:24:01.941 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-03-05 21:08:10.421 [info] Extension host terminating: renderer closed the MessagePort
+2025-03-05 21:08:10.430 [info] Extension host with pid 22470 exiting with code 0

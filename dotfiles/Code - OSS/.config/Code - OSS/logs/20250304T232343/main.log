@@ -1,2 +1,4 @@
 2025-03-04 23:23:43.576 [info] update#setState disabled
 2025-03-04 23:23:43.576 [info] update#ctor - updates are disabled as there is no update URL
+2025-03-05 21:08:10.438 [info] Extension host with pid 22470 exited with code: 0, signal: unknown.
+2025-03-05 21:08:10.515 [error] Blocked vscode-file request vscode-file://vscode-app/usr/lib/code/out/vs/editor/common/services/editorSimpleWorkerMain.js#TextEditorWorker
