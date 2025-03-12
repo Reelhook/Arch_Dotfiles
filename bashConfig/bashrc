@@ -98,3 +98,4 @@ alias CHEATSHEET='bash /home/steven/github/archsetup/scripts/cheatSheet.sh'
 alias WEATHER='curl wttr.in'
 alias BACK='cd $OLDPWD'
 
+alias COPILOT='firefox --new-window https://copilot.microsoft.com/chats/kh4NF9iynUefAmg2QivhJ'
