@@ -1,0 +1,5 @@
+{
+    "git.autofetch": true,
+    "cloneCopilot.mistralApiKey": "escape",
+    "cloneCopilot.enabled": false
+}

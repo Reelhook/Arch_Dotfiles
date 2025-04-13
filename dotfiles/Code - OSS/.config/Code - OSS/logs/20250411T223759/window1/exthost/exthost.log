@@ -1,0 +1,164 @@
+2025-04-11 22:38:04.361 [info] Extension host with pid 24203 started
+2025-04-11 22:38:04.372 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-04-11 22:38:04.388 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-11 22:38:04.448 [info] Eager extensions activated
+2025-04-11 22:38:04.483 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-11 22:38:04.487 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-11 22:38:04.528 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-11 22:38:04.544 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-11 22:38:04.673 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-11 22:38:04.799 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-11 22:38:40.143 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-11 22:38:40.159 [info] Extension host with pid 24203 exiting with code 0
+2025-04-11 22:38:42.549 [info] Extension host with pid 24368 started
+2025-04-11 22:38:42.549 [info] Skipping acquiring lock for /home/steven/.config/Code - OSS/User/workspaceStorage/8c7dd99f8ec645e705ddd446ad4835cb.
+2025-04-11 22:38:42.620 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-11 22:38:42.646 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-11 22:38:42.792 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-11 22:38:42.910 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-11 22:38:43.422 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-04-11 22:38:43.429 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-11 22:38:43.475 [info] Eager extensions activated
+2025-04-11 22:38:43.477 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-11 22:38:43.483 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-11 22:38:45.941 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-04-11 22:40:50.094 [info] ExtensionService#_doActivateExtension Sensmetry.sysml-2ls, startup: false, activationEvent: 'onLanguage:sysml'
+2025-04-11 22:40:52.908 [warning] [Sensmetry.sysml-2ls] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[sysml]', provide the URI of a resource or 'null' for any resource.
+2025-04-11 22:40:52.909 [warning] [Sensmetry.sysml-2ls] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[kerml]', provide the URI of a resource or 'null' for any resource.
+2025-04-11 22:40:52.918 [warning] [Sensmetry.sysml-2ls] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[sysml]', provide the URI of a resource or 'null' for any resource.
+2025-04-11 22:40:52.918 [warning] [Sensmetry.sysml-2ls] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[kerml]', provide the URI of a resource or 'null' for any resource.
+2025-04-11 23:30:35.545 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-11 23:30:35.567 [info] Extension host with pid 24368 exiting with code 0
+2025-04-11 23:30:38.498 [info] Extension host with pid 28302 started
+2025-04-11 23:30:38.498 [info] Skipping acquiring lock for /home/steven/.config/Code - OSS/User/workspaceStorage/5056eca6415a76d42a9ccc6a15d46d34.
+2025-04-11 23:30:38.635 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-11 23:30:38.679 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-11 23:30:38.705 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-11 23:30:39.579 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-11 23:30:39.766 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-04-11 23:30:39.793 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-11 23:30:39.888 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-11 23:30:40.086 [info] Eager extensions activated
+2025-04-11 23:30:40.103 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-11 23:30:40.120 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-11 23:30:40.244 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-11 23:30:40.401 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-11 23:30:40.406 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-11 23:30:40.926 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-11 23:49:08.829 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-04-11 23:49:09.526 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-11 23:49:09.643 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-04-11 23:49:09.643 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:48788)
+	at t.registerDebugger (/home/steven/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:846640)
+	at e.activate (/home/steven/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:1098056)
+	at Uw.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:15216)
+	at Uw.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:14923)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:13081
+	at async cw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13415)
+	at async cw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13378)
+	at async cw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:12834)
+2025-04-11 23:49:10.972 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)
+2025-04-11 23:52:46.116 [info] ExtensionService#_doActivateExtension serianonim.clone-copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 15:13:34.500 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-04-12 15:13:35.049 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-04-12 21:44:15.211 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onCommand:ipynb.newUntitledIpynb'
+2025-04-12 21:44:15.317 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-04-12 21:44:15.322 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2025-04-12 22:43:19.977 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-12 22:43:20.064 [error] Canceled: Canceled
+	at new HR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111362)
+	at i4.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:115973)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113467)
+	at vw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:41039)
+	at vw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:39873)
+	at vw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:41559)
+	at vw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:40636)
+	at vw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:30346)
+	at Th.L [as value] (/usr/lib/code/extensions/git/dist/main.js:2:511809)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:534449)
+	at /usr/lib/code/extensions/git/dist/main.js:2:540767
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:540753)
+	at iv.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at iv.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at iv.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:514293)
+	at iv.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at pi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at vV.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:9876
+	at Array.map (<anonymous>)
+	at vV.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:9864)
+	at vV.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:10107)
+	at oD.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+	at es (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:197:5701)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:197:2249)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-04-12 22:43:20.065 [error] Canceled: Canceled
+	at new HR (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:111362)
+	at i4.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:115973)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:113467)
+	at vw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:41039)
+	at vw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:39873)
+	at vw.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:41559)
+	at vw.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:40636)
+	at vw.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:30346)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:217805)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:218764
+	at Th.value (/usr/lib/code/extensions/git/dist/main.js:2:631688)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:534449)
+	at /usr/lib/code/extensions/git/dist/main.js:2:540767
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:540753)
+	at iv.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at iv.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at iv.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:514293)
+	at iv.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at pi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:14994
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at vV.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:11921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:9876
+	at Array.map (<anonymous>)
+	at vV.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:9864)
+	at vV.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:10107)
+	at oD.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+	at es (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:197:5701)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:197:2249)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-04-12 22:43:20.081 [error] Error: Channel has been closed
+	at s (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:2431)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:2570)
+	at R.logOutputMessage (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:290791)
+	at R.info (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:290524)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:514797)
+	at ChildProcess.emit (node:events:524:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-04-12 22:43:22.043 [info] Extension host with pid 28302 exiting with code 0

@@ -1,0 +1,177 @@
+Clone Copilot extension is now active!
+Status bar updated: $(stop) Clone Copilot
+Toggle inline completions command executed
+Enabling inline completions
+API key not found, prompting user for input
+User cancelled API key input
+Toggle inline completions command executed
+Enabling inline completions
+API key not found, prompting user for input
+User cancelled API key input
+Toggle inline completions command executed
+Enabling inline completions
+API key not found, prompting user for input
+API key provided, updating configuration
+Status bar updated: $(stop) Clone Copilot
+Status bar updated: $(sparkle) Clone Copilot
+Registering inline completion provider with model: mistral-small-latest
+Registering new inline completion provider for all languages
+Initialized with model: mistral-small-latest
+Using custom Mistral client
+Inline completion provider registered successfully
+Registering inline completion provider with model: mistral-small-latest
+Disposing existing inline completion provider
+Registering new inline completion provider for all languages
+Initialized with model: mistral-small-latest
+Using custom Mistral client
+Inline completion provider registered successfully
+Status bar updated: $(sparkle) Clone Copilot
+Status bar updated, inline completions are now enabled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/Obsidian/ObsidianNotes/Main/05 Atomic Notes/pythonCrashCourse.ipynb, Language: python
+Empty line or comment, skipping completion
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/Obsidian/ObsidianNotes/Main/05 Atomic Notes/pythonCrashCourse.ipynb, Language: python
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/Obsidian/ObsidianNotes/Main/05 Atomic Notes/pythonCrashCourse.ipynb, Language: python
+Debouncing, skipping completion
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/Obsidian/ObsidianNotes/Main/05 Atomic Notes/pythonCrashCourse.ipynb, Language: python
+Debouncing, skipping completion
+Using regular completion
+Context length: 15
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/Obsidian/ObsidianNotes/Main/05 Atomic Notes/pythonCrashCourse.ipynb, Language: python
+Using regular completion
+Context length: 17
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/Obsidian/ObsidianNotes/Main/05 Atomic Notes/pythonCrashCourse.ipynb, Language: python
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/Obsidian/ObsidianNotes/Main/05 Atomic Notes/pythonCrashCourse.ipynb, Language: python
+Debouncing, skipping completion
+Using regular completion
+Context length: 18
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/Obsidian/ObsidianNotes/Main/05 Atomic Notes/pythonCrashCourse.ipynb, Language: python
+Using regular completion
+Context length: 19
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/Obsidian/ObsidianNotes/Main/05 Atomic Notes/pythonCrashCourse.ipynb, Language: python
+Using FIM completion
+Context length: 20, Suffix length: 1
+No completion received or request cancelled
+Toggle inline completions command executed
+Disabling inline completions
+Status bar updated: $(stop) Clone Copilot
+Status bar updated: $(stop) Clone Copilot
+Status bar updated, inline completions are now disabled
+Status bar updated: $(sparkle) Clone Copilot
+Registering inline completion provider with model: mistral-small-latest
+Registering new inline completion provider for all languages
+Initialized with model: mistral-small-latest
+Using custom Mistral client
+Inline completion provider registered successfully
+Registering inline completion provider with model: mistral-small-latest
+Disposing existing inline completion provider
+Registering new inline completion provider for all languages
+Initialized with model: mistral-small-latest
+Using custom Mistral client
+Inline completion provider registered successfully
+Status bar updated: $(sparkle) Clone Copilot
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using regular completion
+Context length: 83
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using regular completion
+Context length: 84
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using regular completion
+Context length: 83
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using regular completion
+Context length: 84
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Debouncing, skipping completion
+Using regular completion
+Context length: 83
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using regular completion
+Context length: 90
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using regular completion
+Context length: 91
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using FIM completion
+Context length: 91, Suffix length: 2
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using FIM completion
+Context length: 92, Suffix length: 2
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using regular completion
+Context length: 97
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using regular completion
+Context length: 94
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using regular completion
+Context length: 113
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Using FIM completion
+Context length: 113, Suffix length: 1
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Debouncing, skipping completion
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Debouncing, skipping completion
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Debouncing, skipping completion
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Debouncing, skipping completion
+Using FIM completion
+Context length: 114, Suffix length: 1
+No completion received or request cancelled
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+provideInlineCompletionItems called
+File: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py, Language: python
+Debouncing, skipping completion
+Using FIM completion
+Context length: 119, Suffix length: 2
+No completion received or request cancelled

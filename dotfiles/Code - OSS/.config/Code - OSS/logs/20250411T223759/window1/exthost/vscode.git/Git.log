@@ -1,0 +1,860 @@
+2025-04-11 22:38:46.185 [info] [main] Log level: Info
+2025-04-11 22:38:46.185 [info] [main] Validating found git in: "git"
+2025-04-11 22:38:46.185 [info] [main] Using git "2.49.0" from "git"
+2025-04-11 22:38:46.185 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-11 22:38:46.185 [info] > git rev-parse --show-toplevel [22ms]
+2025-04-11 22:38:46.185 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-11 22:38:46.185 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-11 22:39:05.401 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-11 22:39:05.401 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-11 22:39:52.078 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-11 22:39:52.078 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-11 22:40:33.355 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-11 22:40:33.355 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-11 22:40:50.015 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-11 22:40:50.015 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-11 23:30:40.525 [info] [main] Log level: Info
+2025-04-11 23:30:40.525 [info] [main] Validating found git in: "git"
+2025-04-11 23:30:40.525 [info] [main] Using git "2.49.0" from "git"
+2025-04-11 23:30:40.525 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-11 23:30:40.525 [info] > git rev-parse --show-toplevel [280ms]
+2025-04-11 23:30:40.549 [info] > git rev-parse --git-dir --git-common-dir [16ms]
+2025-04-11 23:30:40.588 [info] [Model][openRepository] Opened repository: /home/steven/github/Programing-Practice
+2025-04-11 23:30:40.658 [info] > git rev-parse --show-toplevel [22ms]
+2025-04-11 23:30:40.660 [info] > git config --get commit.template [32ms]
+2025-04-11 23:30:40.690 [info] > git rev-parse --show-toplevel [18ms]
+2025-04-11 23:30:40.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-04-11 23:30:40.705 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-11 23:30:40.752 [info] > git status -z -uall [26ms]
+2025-04-11 23:30:40.752 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-04-11 23:30:40.820 [info] > git rev-parse --show-toplevel [107ms]
+2025-04-11 23:30:40.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2025-04-11 23:30:40.882 [info] > git config --get --local branch.main.vscode-merge-base [19ms]
+2025-04-11 23:30:40.890 [info] > git rev-parse --show-toplevel [45ms]
+2025-04-11 23:30:40.892 [info] > git config --get commit.template [60ms]
+2025-04-11 23:30:40.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
+2025-04-11 23:30:40.924 [info] > git rev-parse --show-toplevel [20ms]
+2025-04-11 23:30:40.985 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [62ms]
+2025-04-11 23:30:40.985 [info] > git merge-base refs/heads/main refs/remotes/origin/main [71ms]
+2025-04-11 23:30:41.006 [info] > git diff --name-status -z --diff-filter=ADMR 6849b1967836191ab4c530a56ddacc7e981826e4...refs/remotes/origin/main [11ms]
+2025-04-11 23:30:41.007 [info] > git rev-parse --show-toplevel [25ms]
+2025-04-11 23:30:41.007 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-11 23:30:41.032 [info] > git status -z -uall [12ms]
+2025-04-11 23:30:41.035 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-11 23:30:41.107 [info] > git show --textconv :amandaWorkApp/reqtNotes.md [10ms]
+2025-04-11 23:30:41.110 [info] > git ls-files --stage -- amandaWorkApp/reqtNotes.md [4ms]
+2025-04-11 23:30:41.120 [info] > git cat-file -s bb754f26d8131b815105f5c221706b55268be451 [3ms]
+2025-04-11 23:30:41.179 [info] > git blame --root --incremental 6849b1967836191ab4c530a56ddacc7e981826e4 -- amandaWorkApp/reqtNotes.md [7ms]
+2025-04-11 23:30:41.268 [info] > git fetch [681ms]
+2025-04-11 23:30:41.268 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-11 23:30:41.285 [info] > git config --get commit.template [8ms]
+2025-04-11 23:30:41.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-11 23:30:41.305 [info] > git status -z -uall [9ms]
+2025-04-11 23:30:41.307 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-11 23:30:41.384 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-11 23:30:41.862 [info] > git ls-files --stage -- amandaWorkApp/reqtNotes.md [3ms]
+2025-04-11 23:30:41.871 [info] > git cat-file -s bb754f26d8131b815105f5c221706b55268be451 [3ms]
+2025-04-11 23:30:41.885 [info] > git show --textconv :amandaWorkApp/reqtNotes.md [3ms]
+2025-04-11 23:31:17.443 [info] > git config --get commit.template [8ms]
+2025-04-11 23:31:17.445 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-11 23:31:17.462 [info] > git status -z -uall [10ms]
+2025-04-11 23:31:17.464 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-11 23:33:49.828 [info] > git fetch [643ms]
+2025-04-11 23:33:49.828 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-11 23:33:49.847 [info] > git config --get commit.template [10ms]
+2025-04-11 23:33:49.849 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-11 23:33:49.871 [info] > git status -z -uall [13ms]
+2025-04-11 23:33:49.873 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-11 23:37:39.976 [info] > git fetch [634ms]
+2025-04-11 23:37:39.977 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-11 23:37:39.995 [info] > git config --get commit.template [8ms]
+2025-04-11 23:37:39.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-11 23:37:40.014 [info] > git status -z -uall [9ms]
+2025-04-11 23:37:40.017 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-11 23:45:00.023 [info] > git fetch [652ms]
+2025-04-11 23:45:00.023 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-11 23:45:00.040 [info] > git config --get commit.template [8ms]
+2025-04-11 23:45:00.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-11 23:45:00.057 [info] > git status -z -uall [8ms]
+2025-04-11 23:45:00.059 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-11 23:47:04.573 [info] > git show --textconv :python/test.py [10ms]
+2025-04-11 23:47:04.581 [info] > git ls-files --stage -- python/test.py [10ms]
+2025-04-11 23:47:04.589 [info] > git hash-object -t tree /dev/null [9ms]
+2025-04-11 23:47:04.589 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/steven/github/Programing-Practice/python/test.py.git?%7B%22path%22%3A%22%2Fhome%2Fsteven%2Fgithub%2FPrograming-Practice%2Fpython%2Ftest.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-11 23:47:04.592 [info] > git hash-object -t tree /dev/null [4ms]
+2025-04-11 23:47:04.592 [warning] [GitFileSystemProvider][stat] File not found - git:/home/steven/github/Programing-Practice/python/test.py.git?%7B%22path%22%3A%22%2Fhome%2Fsteven%2Fgithub%2FPrograming-Practice%2Fpython%2Ftest.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-11 23:47:04.783 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-11 23:47:05.293 [info] > git config --get commit.template [9ms]
+2025-04-11 23:47:05.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-11 23:47:05.311 [info] > git status -z -uall [9ms]
+2025-04-11 23:47:05.313 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-11 23:48:00.744 [info] > git fetch [669ms]
+2025-04-11 23:48:00.745 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-11 23:48:00.762 [info] > git config --get commit.template [9ms]
+2025-04-11 23:48:00.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-11 23:48:00.781 [info] > git status -z -uall [9ms]
+2025-04-11 23:48:00.783 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-11 23:50:18.585 [info] > git config --get commit.template [12ms]
+2025-04-11 23:50:18.587 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-11 23:50:18.603 [info] > git status -z -uall [9ms]
+2025-04-11 23:50:18.605 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-11 23:50:23.631 [info] > git config --get commit.template [8ms]
+2025-04-11 23:50:23.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-11 23:50:23.651 [info] > git status -z -uall [8ms]
+2025-04-11 23:50:23.653 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-11 23:51:01.457 [info] > git fetch [652ms]
+2025-04-11 23:51:01.457 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-11 23:51:01.475 [info] > git config --get commit.template [9ms]
+2025-04-11 23:51:01.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-11 23:51:01.494 [info] > git status -z -uall [10ms]
+2025-04-11 23:51:01.496 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-11 23:54:02.173 [info] > git fetch [661ms]
+2025-04-11 23:54:02.173 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-11 23:54:02.190 [info] > git config --get commit.template [8ms]
+2025-04-11 23:54:02.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-11 23:54:02.209 [info] > git status -z -uall [8ms]
+2025-04-11 23:54:02.210 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-11 23:55:58.617 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-11 23:55:59.189 [info] > git config --get commit.template [9ms]
+2025-04-11 23:55:59.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-11 23:55:59.207 [info] > git status -z -uall [9ms]
+2025-04-11 23:55:59.209 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 00:00:21.850 [info] > git fetch [674ms]
+2025-04-12 00:00:21.850 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 00:00:21.876 [info] > git config --get commit.template [13ms]
+2025-04-12 00:00:21.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 00:00:21.899 [info] > git status -z -uall [11ms]
+2025-04-12 00:00:21.902 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 00:05:54.281 [info] > git fetch [666ms]
+2025-04-12 00:05:54.281 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 00:05:54.300 [info] > git config --get commit.template [10ms]
+2025-04-12 00:05:54.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 00:05:54.318 [info] > git status -z -uall [8ms]
+2025-04-12 00:05:54.322 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 00:14:10.544 [info] > git config --get commit.template [14ms]
+2025-04-12 00:14:10.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 00:14:10.564 [info] > git status -z -uall [9ms]
+2025-04-12 00:14:10.566 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 00:14:11.186 [info] > git fetch [669ms]
+2025-04-12 00:14:11.186 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 00:14:11.203 [info] > git config --get commit.template [8ms]
+2025-04-12 00:14:11.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 00:14:11.222 [info] > git status -z -uall [9ms]
+2025-04-12 00:14:11.224 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:14:16.605 [info] > git config --get commit.template [3ms]
+2025-04-12 14:14:16.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:14:16.634 [info] > git status -z -uall [9ms]
+2025-04-12 14:14:16.635 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 14:14:17.237 [info] > git fetch [647ms]
+2025-04-12 14:14:17.237 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:14:17.254 [info] > git config --get commit.template [9ms]
+2025-04-12 14:14:17.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:14:17.272 [info] > git status -z -uall [9ms]
+2025-04-12 14:14:17.274 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:14:23.797 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 14:14:23.797 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 14:17:17.943 [info] > git fetch [652ms]
+2025-04-12 14:17:17.943 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:17:17.961 [info] > git config --get commit.template [10ms]
+2025-04-12 14:17:17.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:17:17.978 [info] > git status -z -uall [9ms]
+2025-04-12 14:17:17.981 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:21:41.057 [info] > git fetch [680ms]
+2025-04-12 14:21:41.057 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:21:41.074 [info] > git config --get commit.template [9ms]
+2025-04-12 14:21:41.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-12 14:21:41.090 [info] > git status -z -uall [8ms]
+2025-04-12 14:21:41.092 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 14:24:41.759 [info] > git fetch [631ms]
+2025-04-12 14:24:41.759 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:24:41.776 [info] > git config --get commit.template [8ms]
+2025-04-12 14:24:41.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:24:41.793 [info] > git status -z -uall [7ms]
+2025-04-12 14:24:41.795 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:27:42.520 [info] > git fetch [688ms]
+2025-04-12 14:27:42.520 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:27:42.537 [info] > git config --get commit.template [9ms]
+2025-04-12 14:27:42.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:27:42.554 [info] > git status -z -uall [7ms]
+2025-04-12 14:27:42.556 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:30:43.251 [info] > git fetch [675ms]
+2025-04-12 14:30:43.251 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:30:43.268 [info] > git config --get commit.template [8ms]
+2025-04-12 14:30:43.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:30:43.287 [info] > git status -z -uall [8ms]
+2025-04-12 14:30:43.289 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 14:33:43.983 [info] > git fetch [656ms]
+2025-04-12 14:33:43.983 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:33:43.999 [info] > git config --get commit.template [8ms]
+2025-04-12 14:33:44.001 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:33:44.018 [info] > git status -z -uall [10ms]
+2025-04-12 14:33:44.022 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 14:36:44.744 [info] > git fetch [684ms]
+2025-04-12 14:36:44.744 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:36:44.761 [info] > git config --get commit.template [8ms]
+2025-04-12 14:36:44.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 14:36:44.780 [info] > git status -z -uall [9ms]
+2025-04-12 14:36:44.783 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:39:45.475 [info] > git fetch [665ms]
+2025-04-12 14:39:45.475 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:39:45.492 [info] > git config --get commit.template [8ms]
+2025-04-12 14:39:45.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:39:45.510 [info] > git status -z -uall [9ms]
+2025-04-12 14:39:45.512 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:42:46.221 [info] > git fetch [669ms]
+2025-04-12 14:42:46.221 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:42:46.238 [info] > git config --get commit.template [8ms]
+2025-04-12 14:42:46.240 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:42:46.255 [info] > git status -z -uall [8ms]
+2025-04-12 14:42:46.258 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 14:45:46.910 [info] > git fetch [635ms]
+2025-04-12 14:45:46.910 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:45:46.927 [info] > git config --get commit.template [9ms]
+2025-04-12 14:45:46.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:45:46.945 [info] > git status -z -uall [9ms]
+2025-04-12 14:45:46.947 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:48:47.615 [info] > git fetch [626ms]
+2025-04-12 14:48:47.616 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:48:47.632 [info] > git config --get commit.template [8ms]
+2025-04-12 14:48:47.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:48:47.649 [info] > git status -z -uall [7ms]
+2025-04-12 14:48:47.651 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 14:51:48.361 [info] > git fetch [670ms]
+2025-04-12 14:51:48.361 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:51:48.377 [info] > git config --get commit.template [8ms]
+2025-04-12 14:51:48.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:51:48.399 [info] > git status -z -uall [12ms]
+2025-04-12 14:51:48.401 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:54:49.109 [info] > git fetch [667ms]
+2025-04-12 14:54:49.109 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:54:49.126 [info] > git config --get commit.template [8ms]
+2025-04-12 14:54:49.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:54:49.143 [info] > git status -z -uall [8ms]
+2025-04-12 14:54:49.145 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 14:57:49.828 [info] > git fetch [659ms]
+2025-04-12 14:57:49.828 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 14:57:49.844 [info] > git config --get commit.template [8ms]
+2025-04-12 14:57:49.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 14:57:49.865 [info] > git status -z -uall [11ms]
+2025-04-12 14:57:49.867 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:58:35.807 [info] > git config --get commit.template [10ms]
+2025-04-12 14:58:35.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 14:58:35.825 [info] > git status -z -uall [9ms]
+2025-04-12 14:58:35.829 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 14:59:34.694 [info] > git config --get commit.template [3ms]
+2025-04-12 14:59:34.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 14:59:34.723 [info] > git status -z -uall [9ms]
+2025-04-12 14:59:34.726 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 15:09:16.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 15:09:16.830 [info] > git config --get commit.template [13ms]
+2025-04-12 15:09:16.851 [info] > git status -z -uall [11ms]
+2025-04-12 15:09:16.854 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 15:09:17.503 [info] > git fetch [698ms]
+2025-04-12 15:09:17.503 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 15:09:17.514 [info] > git config --get commit.template [3ms]
+2025-04-12 15:09:17.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 15:09:17.539 [info] > git status -z -uall [8ms]
+2025-04-12 15:09:17.541 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 15:10:57.197 [info] > git config --get commit.template [10ms]
+2025-04-12 15:10:57.199 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 15:10:57.227 [info] > git status -z -uall [14ms]
+2025-04-12 15:10:57.231 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 15:12:18.241 [info] > git fetch [685ms]
+2025-04-12 15:12:18.241 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 15:12:18.258 [info] > git config --get commit.template [7ms]
+2025-04-12 15:12:18.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 15:12:18.274 [info] > git status -z -uall [8ms]
+2025-04-12 15:12:18.276 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 15:14:35.555 [info] > git config --get commit.template [12ms]
+2025-04-12 15:14:35.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 15:14:35.580 [info] > git status -z -uall [12ms]
+2025-04-12 15:14:35.582 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 17:36:48.362 [info] > git config --get commit.template [3ms]
+2025-04-12 17:36:48.375 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 17:36:48.396 [info] > git status -z -uall [12ms]
+2025-04-12 17:36:48.399 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 17:36:49.015 [info] > git fetch [667ms]
+2025-04-12 17:36:49.015 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 17:36:49.032 [info] > git config --get commit.template [8ms]
+2025-04-12 17:36:49.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 17:36:49.051 [info] > git status -z -uall [9ms]
+2025-04-12 17:36:49.054 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 17:36:53.423 [info] > git config --get commit.template [8ms]
+2025-04-12 17:36:53.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 17:36:53.441 [info] > git status -z -uall [9ms]
+2025-04-12 17:36:53.443 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 17:37:10.779 [info] > git config --get commit.template [2ms]
+2025-04-12 17:37:10.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 17:37:10.809 [info] > git status -z -uall [11ms]
+2025-04-12 17:37:10.811 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 17:37:36.613 [info] > git config --get commit.template [10ms]
+2025-04-12 17:37:36.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 17:37:36.634 [info] > git status -z -uall [11ms]
+2025-04-12 17:37:36.636 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 17:38:53.615 [info] > git config --get commit.template [3ms]
+2025-04-12 17:38:53.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 17:38:53.648 [info] > git status -z -uall [10ms]
+2025-04-12 17:38:53.651 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 17:40:46.789 [info] > git fetch [655ms]
+2025-04-12 17:40:46.789 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 17:40:46.806 [info] > git config --get commit.template [9ms]
+2025-04-12 17:40:46.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 17:40:46.824 [info] > git status -z -uall [8ms]
+2025-04-12 17:40:46.827 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 17:48:57.870 [info] > git fetch [654ms]
+2025-04-12 17:48:57.871 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 17:48:57.890 [info] > git config --get commit.template [9ms]
+2025-04-12 17:48:57.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 17:48:57.912 [info] > git status -z -uall [12ms]
+2025-04-12 17:48:57.915 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 21:41:36.472 [info] > git config --get commit.template [3ms]
+2025-04-12 21:41:36.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:41:36.509 [info] > git status -z -uall [13ms]
+2025-04-12 21:41:36.513 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 21:41:37.162 [info] > git fetch [704ms]
+2025-04-12 21:41:37.162 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 21:41:37.179 [info] > git config --get commit.template [9ms]
+2025-04-12 21:41:37.181 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:41:37.198 [info] > git status -z -uall [10ms]
+2025-04-12 21:41:37.201 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 21:41:41.542 [info] > git config --get commit.template [9ms]
+2025-04-12 21:41:41.544 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 21:41:41.565 [info] > git status -z -uall [13ms]
+2025-04-12 21:41:41.568 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 21:44:48.077 [info] > git fetch [676ms]
+2025-04-12 21:44:48.077 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 21:44:48.100 [info] > git config --get commit.template [10ms]
+2025-04-12 21:44:48.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:44:48.123 [info] > git status -z -uall [12ms]
+2025-04-12 21:44:48.125 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 21:45:02.496 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 21:45:03.209 [info] > git config --get commit.template [14ms]
+2025-04-12 21:45:03.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:45:03.229 [info] > git status -z -uall [10ms]
+2025-04-12 21:45:03.231 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 21:45:13.596 [info] > git check-ignore -v -z --stdin [8ms]
+2025-04-12 21:45:18.207 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 21:45:21.614 [info] > git check-ignore -v -z --stdin [6ms]
+2025-04-12 21:45:37.935 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 21:45:38.585 [info] > git check-ignore -v -z --stdin [7ms]
+2025-04-12 21:45:40.391 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 21:45:46.417 [info] > git check-ignore -v -z --stdin [4ms]
+2025-04-12 21:45:46.927 [info] > git config --get commit.template [11ms]
+2025-04-12 21:45:46.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:45:46.949 [info] > git status -z -uall [12ms]
+2025-04-12 21:45:46.953 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 21:45:51.984 [info] > git config --get commit.template [10ms]
+2025-04-12 21:45:51.985 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:45:52.001 [info] > git status -z -uall [8ms]
+2025-04-12 21:45:52.003 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 21:46:21.856 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 21:46:22.371 [info] > git config --get commit.template [11ms]
+2025-04-12 21:46:22.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:46:22.397 [info] > git status -z -uall [12ms]
+2025-04-12 21:46:22.399 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 21:46:27.454 [info] > git config --get commit.template [6ms]
+2025-04-12 21:46:27.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 21:46:27.499 [info] > git status -z -uall [18ms]
+2025-04-12 21:46:27.504 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-12 21:47:04.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-12 21:47:04.071 [info] > git config --get commit.template [14ms]
+2025-04-12 21:47:04.128 [info] > git status -z -uall [27ms]
+2025-04-12 21:47:04.134 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-04-12 21:47:48.842 [info] > git fetch [697ms]
+2025-04-12 21:47:48.842 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 21:47:48.861 [info] > git config --get commit.template [10ms]
+2025-04-12 21:47:48.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:47:48.884 [info] > git status -z -uall [12ms]
+2025-04-12 21:47:48.886 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 21:50:42.019 [info] > git config --get commit.template [5ms]
+2025-04-12 21:50:42.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-12 21:50:42.063 [info] > git status -z -uall [13ms]
+2025-04-12 21:50:42.071 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-04-12 21:50:47.099 [info] > git config --get commit.template [11ms]
+2025-04-12 21:50:47.100 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:50:47.123 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 21:50:47.124 [info] > git status -z -uall [13ms]
+2025-04-12 21:50:49.580 [info] > git fetch [677ms]
+2025-04-12 21:50:49.580 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 21:50:49.598 [info] > git config --get commit.template [8ms]
+2025-04-12 21:50:49.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:50:49.618 [info] > git status -z -uall [11ms]
+2025-04-12 21:50:49.621 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 21:52:55.465 [info] > git config --get commit.template [13ms]
+2025-04-12 21:52:55.468 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-12 21:52:55.493 [info] > git status -z -uall [11ms]
+2025-04-12 21:52:55.495 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 21:53:00.518 [info] > git config --get commit.template [6ms]
+2025-04-12 21:53:00.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 21:53:00.575 [info] > git status -z -uall [24ms]
+2025-04-12 21:53:00.587 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2025-04-12 21:53:05.619 [info] > git config --get commit.template [11ms]
+2025-04-12 21:53:05.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 21:53:05.639 [info] > git status -z -uall [10ms]
+2025-04-12 21:53:05.640 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 21:53:50.360 [info] > git fetch [707ms]
+2025-04-12 21:53:50.360 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 21:53:50.380 [info] > git config --get commit.template [10ms]
+2025-04-12 21:53:50.383 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 21:53:50.401 [info] > git status -z -uall [10ms]
+2025-04-12 21:53:50.403 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 22:01:43.812 [info] > git fetch [691ms]
+2025-04-12 22:01:43.812 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:01:43.829 [info] > git config --get commit.template [8ms]
+2025-04-12 22:01:43.831 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:01:43.848 [info] > git status -z -uall [9ms]
+2025-04-12 22:01:43.850 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 22:09:11.347 [info] > git fetch [668ms]
+2025-04-12 22:09:11.347 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:09:11.366 [info] > git config --get commit.template [9ms]
+2025-04-12 22:09:11.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:09:11.384 [info] > git status -z -uall [10ms]
+2025-04-12 22:09:11.386 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 22:14:21.995 [info] > git fetch [759ms]
+2025-04-12 22:14:21.995 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:14:22.016 [info] > git config --get commit.template [9ms]
+2025-04-12 22:14:22.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:14:22.036 [info] > git status -z -uall [10ms]
+2025-04-12 22:14:22.039 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 22:16:50.707 [info] > git config --get commit.template [11ms]
+2025-04-12 22:16:50.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:16:50.729 [info] > git status -z -uall [11ms]
+2025-04-12 22:16:50.732 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 22:17:02.755 [info] > git config --get commit.template [17ms]
+2025-04-12 22:17:02.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:17:02.785 [info] > git status -z -uall [17ms]
+2025-04-12 22:17:02.790 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 22:17:22.807 [info] > git fetch [738ms]
+2025-04-12 22:17:22.807 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:17:22.825 [info] > git config --get commit.template [1ms]
+2025-04-12 22:17:22.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:17:22.871 [info] > git status -z -uall [13ms]
+2025-04-12 22:17:22.873 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 22:20:31.996 [info] > git fetch [724ms]
+2025-04-12 22:20:31.996 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:20:32.017 [info] > git config --get commit.template [10ms]
+2025-04-12 22:20:32.019 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:20:32.039 [info] > git status -z -uall [11ms]
+2025-04-12 22:20:32.043 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 22:23:32.770 [info] > git fetch [709ms]
+2025-04-12 22:23:32.770 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:23:32.791 [info] > git config --get commit.template [10ms]
+2025-04-12 22:23:32.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:23:32.817 [info] > git status -z -uall [15ms]
+2025-04-12 22:23:32.822 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-12 22:25:29.947 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 22:25:29.947 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 22:26:33.557 [info] > git fetch [694ms]
+2025-04-12 22:26:33.557 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:26:33.577 [info] > git config --get commit.template [10ms]
+2025-04-12 22:26:33.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 22:26:33.608 [info] > git status -z -uall [15ms]
+2025-04-12 22:26:33.611 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 22:26:57.972 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 22:26:57.972 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 22:27:01.402 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-12 22:27:12.184 [info] > git rev-parse --show-toplevel [37ms]
+2025-04-12 22:27:12.185 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 22:27:12.775 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 22:27:13.284 [info] > git config --get commit.template [12ms]
+2025-04-12 22:27:13.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 22:27:13.313 [info] > git status -z -uall [16ms]
+2025-04-12 22:27:13.318 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 22:27:36.197 [info] > git show --textconv :python/pythonCrashCourseBook/get-pip.py [12ms]
+2025-04-12 22:27:36.199 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/steven/github/Programing-Practice/python/pythonCrashCourseBook/get-pip.py.git?%7B%22path%22%3A%22%2Fhome%2Fsteven%2Fgithub%2FPrograming-Practice%2Fpython%2FpythonCrashCourseBook%2Fget-pip.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-12 22:27:36.201 [info] > git ls-files --stage -- python/pythonCrashCourseBook/get-pip.py [6ms]
+2025-04-12 22:27:36.202 [warning] [GitFileSystemProvider][stat] File not found - git:/home/steven/github/Programing-Practice/python/pythonCrashCourseBook/get-pip.py.git?%7B%22path%22%3A%22%2Fhome%2Fsteven%2Fgithub%2FPrograming-Practice%2Fpython%2FpythonCrashCourseBook%2Fget-pip.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-12 22:27:36.431 [info] > git check-ignore -v -z --stdin [5ms]
+2025-04-12 22:27:36.937 [info] > git config --get commit.template [11ms]
+2025-04-12 22:27:36.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:27:36.957 [info] > git status -z -uall [9ms]
+2025-04-12 22:27:36.960 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 22:28:04.628 [info] > git config --get commit.template [12ms]
+2025-04-12 22:28:04.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 22:28:04.654 [info] > git status -z -uall [13ms]
+2025-04-12 22:28:04.656 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 22:28:46.810 [info] > git config --get commit.template [14ms]
+2025-04-12 22:28:46.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-04-12 22:28:46.835 [info] > git status -z -uall [11ms]
+2025-04-12 22:28:46.838 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 22:28:51.871 [info] > git config --get commit.template [12ms]
+2025-04-12 22:28:51.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-12 22:28:51.912 [info] > git status -z -uall [22ms]
+2025-04-12 22:28:51.914 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 22:29:21.923 [info] > git config --get commit.template [11ms]
+2025-04-12 22:29:21.961 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-04-12 22:29:21.985 [info] > git status -z -uall [12ms]
+2025-04-12 22:29:21.988 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 22:29:39.968 [info] > git config --get commit.template [33ms]
+2025-04-12 22:29:39.972 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-04-12 22:29:40.010 [info] > git status -z -uall [20ms]
+2025-04-12 22:29:40.015 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-04-12 22:29:40.649 [info] > git fetch [737ms]
+2025-04-12 22:29:40.649 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:29:40.671 [info] > git config --get commit.template [11ms]
+2025-04-12 22:29:40.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:29:40.692 [info] > git status -z -uall [11ms]
+2025-04-12 22:29:40.694 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 22:29:42.548 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-12 22:29:42.548 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 22:29:45.037 [info] > git config --get commit.template [2ms]
+2025-04-12 22:29:45.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:29:45.073 [info] > git status -z -uall [11ms]
+2025-04-12 22:29:45.077 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 22:29:50.262 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 22:29:53.710 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 22:30:19.779 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 22:30:19.779 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 22:32:17.880 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-12 22:32:17.880 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 22:33:31.718 [info] > git fetch [735ms]
+2025-04-12 22:33:31.718 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:33:31.740 [info] > git config --get commit.template [11ms]
+2025-04-12 22:33:31.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:33:31.771 [info] > git status -z -uall [17ms]
+2025-04-12 22:33:31.773 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 22:35:31.286 [info] > git config --get commit.template [16ms]
+2025-04-12 22:35:31.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 22:35:31.313 [info] > git status -z -uall [15ms]
+2025-04-12 22:35:31.317 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 22:35:36.347 [info] > git config --get commit.template [4ms]
+2025-04-12 22:35:36.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:35:36.386 [info] > git status -z -uall [15ms]
+2025-04-12 22:35:36.388 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 22:35:59.203 [info] > git show --textconv :python/pythonCrashCourseBook/Chapter3.py [11ms]
+2025-04-12 22:35:59.205 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py.git?%7B%22path%22%3A%22%2Fhome%2Fsteven%2Fgithub%2FPrograming-Practice%2Fpython%2FpythonCrashCourseBook%2FChapter3.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-12 22:35:59.206 [info] > git ls-files --stage -- python/pythonCrashCourseBook/Chapter3.py [4ms]
+2025-04-12 22:35:59.207 [warning] [GitFileSystemProvider][stat] File not found - git:/home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py.git?%7B%22path%22%3A%22%2Fhome%2Fsteven%2Fgithub%2FPrograming-Practice%2Fpython%2FpythonCrashCourseBook%2FChapter3.py%22%2C%22ref%22%3A%22%22%7D
+2025-04-12 22:35:59.331 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 22:36:06.372 [info] > git config --get commit.template [11ms]
+2025-04-12 22:36:06.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 22:36:06.405 [info] > git status -z -uall [16ms]
+2025-04-12 22:36:06.408 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 22:36:12.075 [info] > git config --get commit.template [42ms]
+2025-04-12 22:36:12.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-04-12 22:36:12.116 [info] > git status -z -uall [13ms]
+2025-04-12 22:36:12.118 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 22:36:32.458 [info] > git fetch [664ms]
+2025-04-12 22:36:32.458 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:36:32.483 [info] > git config --get commit.template [13ms]
+2025-04-12 22:36:32.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-12 22:36:32.551 [info] > git status -z -uall [29ms]
+2025-04-12 22:36:32.559 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-04-12 22:39:33.340 [info] > git fetch [754ms]
+2025-04-12 22:39:33.340 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:39:33.364 [info] > git config --get commit.template [12ms]
+2025-04-12 22:39:33.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 22:39:33.389 [info] > git status -z -uall [13ms]
+2025-04-12 22:39:33.392 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 22:40:54.024 [info] > git config --get commit.template [12ms]
+2025-04-12 22:40:54.026 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:40:54.054 [info] > git status -z -uall [13ms]
+2025-04-12 22:40:54.058 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 22:42:30.031 [info] > git config --get commit.template [4ms]
+2025-04-12 22:42:30.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:42:30.098 [info] > git status -z -uall [21ms]
+2025-04-12 22:42:30.104 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-04-12 22:42:34.063 [info] > git fetch [653ms]
+2025-04-12 22:42:34.063 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2025-04-12 22:42:34.077 [info] > git config --get commit.template [2ms]
+2025-04-12 22:42:34.089 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:42:34.112 [info] > git status -z -uall [13ms]
+2025-04-12 22:42:34.114 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 22:42:41.809 [info] > git config --get commit.template [11ms]
+2025-04-12 22:42:41.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 22:42:41.834 [info] > git status -z -uall [13ms]
+2025-04-12 22:42:41.836 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]

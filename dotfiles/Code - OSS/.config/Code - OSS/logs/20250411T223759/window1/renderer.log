@@ -1,0 +1,237 @@
+2025-04-11 22:38:02.905 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-04-11 22:38:03.270 [info] Started local extension host with pid 24203.
+2025-04-11 22:38:07.269 [info] [perf] Render performance baseline is 50ms
+2025-04-11 22:38:41.036 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-04-11 22:38:41.253 [info] Started local extension host with pid 24368.
+2025-04-11 22:38:44.144 [info] [perf] Render performance baseline is 47ms
+2025-04-11 23:30:36.880 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-04-11 23:30:37.130 [info] Started local extension host with pid 28302.
+2025-04-11 23:30:40.915 [info] [perf] Render performance baseline is 61ms
+2025-04-11 23:49:08.308 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-11 23:49:08.309 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-11 23:49:08.340 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-04-11 23:49:10.976 [error] An unknown error occurred. Please consult the log for more details.
+2025-04-12 15:13:33.943 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-12 15:13:33.943 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider, notebookReplDocument'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-04-12 15:13:33.985 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-04-12 17:37:01.563 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-04-12 22:17:39.502 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:17:39.502 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"68076462201d3c5e9287f323667e4d51"}
+2025-04-12 22:17:40.887 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:17:40.888 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"defd743ccf7594741983b84ae472e148"}
+2025-04-12 22:17:48.189 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:17:48.199 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"e5bb821528422272f5a6a426859da128"}
+2025-04-12 22:18:05.166 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:18:05.172 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"132d197be08e5725523a47029564d507"}
+2025-04-12 22:18:08.120 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190444)
+2025-04-12 22:18:08.122 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"b049ab3f8d720d00ef36e265fbbf7a4f"}
+2025-04-12 22:39:32.886 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:39:32.887 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"1fdc5406935e7f1ac856c5195549b645"}
+2025-04-12 22:39:34.350 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:39:34.350 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"f83b6d66240f2f55acba6f690729076b"}
+2025-04-12 22:39:41.986 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:39:41.987 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"58171a4033e9484ef0542528307c296e"}
+2025-04-12 22:39:43.186 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:39:43.188 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"010ed0545334583ed5283d2c62f8502d"}
+2025-04-12 22:40:42.466 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:40:42.467 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"e38dd8161c41ec78f9b23e7a3c778d05"}
+2025-04-12 22:40:45.647 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:40:45.648 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"91ed2120906b26194bbe38654849cd50"}
+2025-04-12 22:40:48.391 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:40:48.393 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"8d8f2f661397d725d1d9cd0531d32505"}
+2025-04-12 22:40:50.582 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190444)
+2025-04-12 22:40:50.582 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"fecfbb41a690e57bfc48e55aa21e8a1e"}
+2025-04-12 22:40:52.124 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190444)
+2025-04-12 22:40:52.125 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"ed49ec32bcfa814a4ebebf24433ed62d"}
+2025-04-12 22:41:30.601 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:41:30.603 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"6527f0278764c55435b36b73a508be6f"}
+2025-04-12 22:41:32.795 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:41:32.796 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"a204d32f3165ec26d0ced8293d444d3f"}
+2025-04-12 22:42:21.990 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190693)
+2025-04-12 22:42:21.991 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"9491053e12271c0768e3fb60c2e4cc00"}
+2025-04-12 22:42:26.486 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190444)
+2025-04-12 22:42:26.488 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"623f8c0c1c5d5b75cb6e8f78f7c73b7a"}
+2025-04-12 22:42:27.062 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190444)
+2025-04-12 22:42:27.063 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"fbbf34305ce97f0b5e6da30e5723db0e"}
+2025-04-12 22:42:39.422 [error] [Extension Host] Error calling Mistral AI Chat API: AxiosError: Request failed with status code 401
+	at Qe (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:221618)
+	at IncomingMessage.<anonymous> (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:233793)
+	at IncomingMessage.emit (node:events:536:35)
+	at endReadableNT (node:internal/streams/readable:1698:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+	at cn.request (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:246008)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async a.MistralAIClient.getChatCompletion (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:23655)
+	at async Timeout._onTimeout (/home/steven/.vscode-oss/extensions/serianonim.clone-copilot-0.0.5-universal/dist/extension.js:2:190444)
+2025-04-12 22:42:39.422 [error] [Extension Host] API Error Response: {"message":"Unauthorized","request_id":"7a0477275cae52193ec31f75a1069c7b"}

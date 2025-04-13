@@ -4,31 +4,42 @@
     "telemetry.devDeviceId": "0c53706e-4549-4c24-8069-f3a84b1a6df4",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/steven/github/Programing-Practice"
+            },
+            {
+                "folderUri": "file:///home/steven/Documents/SysmlV2"
+            }
+        ],
         "emptyWindows": [
             {
-                "backupFolder": "1741141356635"
+                "backupFolder": "1742954796026"
             }
         ]
     },
     "profileAssociations": {
         "workspaces": {
             "file:///home/steven/.config/i3": "__default__profile__",
-            "file:///home/steven/.config/picom": "__default__profile__"
+            "file:///home/steven/.config/picom": "__default__profile__",
+            "file:///home/steven/github/Programing-Practice": "__default__profile__",
+            "file:///home/steven/Documents/SysmlV2": "__default__profile__"
         },
         "emptyWindows": {
-            "1741141356635": "__default__profile__"
+            "1742954796026": "__default__profile__"
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/steven/.config/Code - OSS/Backups/1741141356635",
+            "folder": "file:///home/steven/github/Programing-Practice",
+            "backupPath": "/home/steven/.config/Code - OSS/Backups/a899370c1d922a2705a0f23c85844fe3",
             "uiState": {
-                "mode": 1,
-                "x": 2,
-                "y": 553,
-                "width": 1916,
-                "height": 488,
+                "mode": 3,
+                "display": 66,
+                "width": 1920,
+                "height": 1080,
+                "x": 0,
+                "y": 0,
                 "zoomLevel": 2
             }
         },
@@ -52,16 +63,6 @@
             "statusBarBackground": "#181818",
             "statusBarBorder": "#2b2b2b",
             "statusBarNoFolderBackground": "#1f1f1f"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
-            "activityBarWidth": 48,
-            "sideBarWidth": 0,
-            "auxiliarySideBarWidth": 0,
-            "statusBarHeight": 22,
-            "windowBorder": false
         }
     },
     "lastKnownMenubarData": {
@@ -1830,5 +1831,6 @@
                 "userSettingsLabel": "ctrl+k ctrl+r"
             }
         }
-    }
+    },
+    "windowControlHeight": 50
 }

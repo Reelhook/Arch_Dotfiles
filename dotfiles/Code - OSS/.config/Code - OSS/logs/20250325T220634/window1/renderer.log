@@ -1,0 +1,4 @@
+2025-03-25 22:06:37.885 [info] Started local extension host with pid 4739.
+2025-03-25 22:06:40.382 [error] Error while getting the latest version for the extension tamasfe.even-better-toml. Cannot read properties of undefined (reading 'replace')
+2025-03-25 22:06:40.382 [error] Error while getting the latest version for the extension tombi-toml.tombi. Cannot read properties of undefined (reading 'replace')
+2025-03-25 22:06:41.831 [info] [perf] Render performance baseline is 59ms

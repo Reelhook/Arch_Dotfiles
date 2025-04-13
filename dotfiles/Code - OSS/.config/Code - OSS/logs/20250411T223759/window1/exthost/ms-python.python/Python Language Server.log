@@ -1,0 +1,17 @@
+2025-04-11 23:50:14.533 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1"
+
+2025-04-12 14:57:50.970 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "107"
+
+2025-04-12 14:57:50.979 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "108"
+
+2025-04-12 14:57:50.984 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "109"
+
+2025-04-12 22:16:55.331 [info] [Error - 10:16:55 PM] Server process exited with signal SIGTERM.
+2025-04-12 22:17:49.652 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6"
+
+2025-04-12 22:27:42.597 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "46"
+
+2025-04-12 22:27:42.855 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "47"
+
+2025-04-12 22:27:54.202 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "48"
+

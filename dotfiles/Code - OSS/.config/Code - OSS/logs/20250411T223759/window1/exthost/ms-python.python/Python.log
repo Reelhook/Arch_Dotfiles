@@ -1,0 +1,200 @@
+2025-04-11 23:49:09.644 [warning] Dir "/home/steven/github/Programing-Practice/.pixi/envs" is not watchable (directory does not exist)
+2025-04-11 23:49:09.644 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:39305)
+	at new v (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:878107)
+	at ge (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1684812)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688176
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at e.dynamicValue (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1700171)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686348
+	at Ee (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686604)
+	at Se (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688320)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685899
+	at Array.map (<anonymous>)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685870
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at a.get (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:536740)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:451577
+	at async t.activateComponents (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:449857)
+	at async /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642626
+	at async e (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642158)
+	at async cw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13415)
+	at async cw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13378)
+	at async cw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:12834)]
+2025-04-11 23:49:09.644 [info] Starting Environment refresh
+2025-04-11 23:49:09.644 [info] Searching for interpreters in posix paths locator
+2025-04-11 23:49:09.644 [info] Searching for pyenv environments
+2025-04-11 23:49:09.644 [info] Searching for conda environments
+2025-04-11 23:49:09.644 [info] Searching for global virtual environments
+2025-04-11 23:49:09.644 [info] Searching for custom virtual environments
+2025-04-11 23:49:09.644 [info] pyenv is not installed
+2025-04-11 23:49:09.644 [info] Finished searching for pyenv environments: 32 milliseconds
+2025-04-11 23:49:09.644 [info] Finished searching for custom virtual envs: 31 milliseconds
+2025-04-11 23:49:09.644 [info] > conda info --json
+2025-04-11 23:49:09.644 [info] > hatch env show --json
+2025-04-11 23:49:09.644 [info] cwd: .
+2025-04-11 23:49:09.644 [info] > pyenv which python
+2025-04-11 23:49:09.644 [info] cwd: .
+2025-04-11 23:49:09.644 [info] Finished searching for global virtual envs: 74 milliseconds
+2025-04-11 23:49:09.652 [info] Found: /bin/python --> /bin/python3.13
+2025-04-11 23:49:09.655 [info] Found: /bin/python3 --> /bin/python3.13
+2025-04-11 23:49:09.656 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-04-11 23:49:09.696 [info] Found: /sbin/python --> /sbin/python3.13
+2025-04-11 23:49:09.696 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-04-11 23:49:09.697 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-04-11 23:49:09.702 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-04-11 23:49:09.703 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-04-11 23:49:09.703 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-04-11 23:49:09.738 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-04-11 23:49:09.738 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-04-11 23:49:09.739 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-04-11 23:49:09.765 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-11 23:49:09.782 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-11 23:49:09.793 [info] Finished searching for interpreters in posix paths locator: 369 milliseconds
+2025-04-11 23:49:09.803 [info] Environments refresh paths discovered (event): 381 milliseconds
+2025-04-11 23:49:09.803 [info] Environments refresh paths discovered: 381 milliseconds
+2025-04-11 23:49:09.852 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-11 23:49:09.865 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-11 23:49:09.933 [info] Environments refresh finished (event): 510 milliseconds
+2025-04-11 23:49:09.948 [info] Environment refresh took 527 milliseconds
+2025-04-11 23:49:09.957 [info] Python interpreter path: /bin/python
+2025-04-11 23:49:09.965 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 546ms, has a falsy return value, Arg 1: <Uri:/home/steven/github/Programing-Practice>, Arg 2: {"started":1744429749293}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+  	at C.activate (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+  	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+]
+2025-04-11 23:49:09.966 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-04-11 23:49:09.966 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-04-11 23:49:12.015 [info] Starting Jedi language server for Programing-Practice.
+2025-04-11 23:50:17.540 [info] CreateEnv Trigger - Skipping for /home/steven/github/Programing-Practice/python/test.py
+2025-04-11 23:50:17.742 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/test.py
+2025-04-11 23:50:18.195 [info] Send text to terminal: /bin/python /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 14:58:34.972 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 14:58:36.732 [info] Send text to terminal: /bin/python /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 14:59:33.865 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 14:59:34.476 [info] Send text to terminal: /bin/python /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 17:37:09.669 [info] Send text to terminal: /bin/python /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 17:37:09.916 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 17:37:35.775 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 17:37:37.574 [info] Send text to terminal: /bin/python /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 17:38:52.785 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 17:38:53.485 [info] Send text to terminal: /bin/python /home/steven/github/Programing-Practice/python/test.py
+2025-04-12 21:42:53.191 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice
+2025-04-12 21:50:42.093 [info] Environments refresh paths discovered: 73 milliseconds
+2025-04-12 21:50:42.108 [info] > ./pyLearn/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-12 21:50:42.191 [info] Environments refresh finished (event): 171 milliseconds
+2025-04-12 21:52:56.948 [info] Selected workspace /home/steven/github/Programing-Practice for creating virtual environment.
+2025-04-12 21:53:49.152 [error] Virtual env creation requires an interpreter.
+2025-04-12 21:53:49.153 [error] CreateEnv Trigger - Error while creating environment:  [TypeError: Cannot read properties of undefined (reading 'path')
+	at /home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:731576]
+2025-04-12 22:16:05.969 [info] Selected workspace /home/steven/github/Programing-Practice for creating virtual environment.
+2025-04-12 22:16:48.892 [info] Selected interpreter /bin/python for creating virtual environment.
+2025-04-12 22:16:48.976 [info] Running Env creation script:  [
+  '/bin/python',
+  '/home/steven/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/create_venv.py',
+  '--git-ignore'
+]
+2025-04-12 22:16:48.976 [info] > /bin/python ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/create_venv.py --git-ignore
+2025-04-12 22:16:48.976 [info] cwd: .
+2025-04-12 22:16:49.122 [info] Running: /bin/python -m venv --without-pip .venv
+2025-04-12 22:16:49.223 [info] CREATED_VENV:/home/steven/github/Programing-Practice/.venv/bin/python
+CREATE_VENV.DOWNLOADING_PIP
+2025-04-12 22:16:49.558 [info] CREATE_VENV.INSTALLING_PIP
+Running: /home/steven/github/Programing-Practice/.venv/bin/python /home/steven/github/Programing-Practice/.venv/pip.pyz install pip
+2025-04-12 22:16:50.310 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-04-12 22:16:50.310 [info] Environments refresh paths discovered: 24 milliseconds
+2025-04-12 22:16:50.392 [info] Environments refresh finished (event): 106 milliseconds
+2025-04-12 22:16:52.260 [info] Collecting pip
+2025-04-12 22:16:52.373 [info]   Downloading pip-25.0.1-py3-none-any.whl.metadata (3.7 kB)
+2025-04-12 22:16:52.405 [info] Downloading pip-25.0.1-py3-none-any.whl (1.8 MB)
+2025-04-12 22:16:52.511 [info]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 27.2 MB/s eta 0:00:00
+2025-04-12 22:16:52.513 [info] 
+2025-04-12 22:16:52.565 [info] Installing collected packages: pip
+2025-04-12 22:16:54.414 [info] Successfully installed pip-25.0.1
+2025-04-12 22:16:55.276 [info] Active interpreter [/home/steven/github/Programing-Practice]:  /home/steven/github/Programing-Practice/.venv/bin/python
+2025-04-12 22:16:55.285 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice
+2025-04-12 22:16:55.286 [info] Python interpreter path: ./.venv/bin/python
+2025-04-12 22:16:56.758 [info] Starting Jedi language server for Programing-Practice.
+2025-04-12 22:17:23.451 [info] Discover tests for workspace name: undefined - uri: /home/steven/.config/Code - OSS/User/settings.json
+2025-04-12 22:18:27.008 [info] Discover tests for workspace name: undefined - uri: /home/steven/.config/Code - OSS/User/settings.json
+2025-04-12 22:25:48.204 [info] Send text to terminal: source /home/steven/github/Programing-Practice/.venv/bin/activate
+2025-04-12 22:28:03.751 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/get-pip.py
+2025-04-12 22:36:11.189 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py
+2025-04-12 22:36:12.907 [info] Send text to terminal: source /home/steven/github/Programing-Practice/.venv/bin/activate
+2025-04-12 22:36:13.409 [info] Send text to terminal: /home/steven/github/Programing-Practice/.venv/bin/python /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py
+2025-04-12 22:36:19.693 [info] Send text to terminal: source /home/steven/github/Programing-Practice/.venv/bin/activate
+2025-04-12 22:36:25.150 [info] Send text to terminal: source /home/steven/github/Programing-Practice/.venv/bin/activate
+2025-04-12 22:36:38.935 [info] Send text to terminal: source /home/steven/github/Programing-Practice/.venv/bin/activate
+2025-04-12 22:36:39.438 [info] Send text to terminal: /home/steven/github/Programing-Practice/.venv/bin/python /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py
+2025-04-12 22:36:52.769 [info] Send text to terminal: /home/steven/github/Programing-Practice/.venv/bin/python /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py
+2025-04-12 22:39:28.014 [info] Discover tests for workspace name: undefined - uri: /home/steven/.config/Code - OSS/User/settings.json
+2025-04-12 22:40:53.181 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py
+2025-04-12 22:40:54.877 [info] Send text to terminal: /home/steven/github/Programing-Practice/.venv/bin/python /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py
+2025-04-12 22:42:28.932 [info] Send text to terminal: /home/steven/github/Programing-Practice/.venv/bin/python /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py
+2025-04-12 22:42:29.175 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py
+2025-04-12 22:42:40.908 [info] Discover tests for workspace name: Programing-Practice - uri: /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py
+2025-04-12 22:42:42.108 [info] Send text to terminal: /home/steven/github/Programing-Practice/.venv/bin/python /home/steven/github/Programing-Practice/python/pythonCrashCourseBook/Chapter3.py

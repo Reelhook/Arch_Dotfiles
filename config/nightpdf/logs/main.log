@@ -1,0 +1,15 @@
+[2025-03-28 23:21:29.892] [info]  Checking for update
+[2025-03-28 23:21:30.075] [info]  Generated new staging user ID: 18b767b3-4fd4-5b29-9b33-81e04d5882db
+[2025-03-28 23:21:30.509] [error] Error: Error: No published versions on GitHub
+    at newError (/opt/nightpdf/resources/app.asar/node_modules/electron-updater/node_modules/builder-util-runtime/out/error.js:5:19)
+    at GitHubProvider.getLatestVersion (/opt/nightpdf/resources/app.asar/node_modules/electron-updater/out/providers/GitHubProvider.js:99:55)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async DebUpdater.getUpdateInfoAndProvider (/opt/nightpdf/resources/app.asar/node_modules/electron-updater/out/AppUpdater.js:343:19)
+    at async DebUpdater.doCheckForUpdates (/opt/nightpdf/resources/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:24)
+[2025-03-28 23:22:53.147] [info]  Checking for update
+[2025-03-28 23:22:53.795] [error] Error: Error: No published versions on GitHub
+    at newError (/opt/nightpdf/resources/app.asar/node_modules/electron-updater/node_modules/builder-util-runtime/out/error.js:5:19)
+    at GitHubProvider.getLatestVersion (/opt/nightpdf/resources/app.asar/node_modules/electron-updater/out/providers/GitHubProvider.js:99:55)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async DebUpdater.getUpdateInfoAndProvider (/opt/nightpdf/resources/app.asar/node_modules/electron-updater/out/AppUpdater.js:343:19)
+    at async DebUpdater.doCheckForUpdates (/opt/nightpdf/resources/app.asar/node_modules/electron-updater/out/AppUpdater.js:357:24)

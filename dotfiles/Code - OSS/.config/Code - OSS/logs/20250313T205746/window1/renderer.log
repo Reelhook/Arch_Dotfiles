@@ -1,0 +1,28 @@
+2025-03-13 20:57:49.602 [info] Started local extension host with pid 393939.
+2025-03-13 20:57:52.312 [error] Error while getting the latest version for the extension tamasfe.even-better-toml. Cannot read properties of undefined (reading 'replace')
+2025-03-13 20:57:52.317 [error] Error while getting the latest version for the extension tombi-toml.tombi. Cannot read properties of undefined (reading 'replace')
+2025-03-13 20:57:53.817 [info] [perf] Render performance baseline is 72ms
+2025-03-13 20:58:28.919 [error] CodeExpectedError
+    at Jht.j (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3206:60000)
+    at async Jht.cb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3206:70584)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3206:70310
+2025-03-13 21:01:23.781 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2025-03-13 21:01:23.958 [warning] [backup tracker] suspended, ignoring register event file:///home/steven/github/Programing-Practice/amandaWorkApp/reqtNotes.md 
+2025-03-13 21:01:23.975 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/steven/github/Programing-Practice/amandaWorkApp/reqtNotes.md 
+2025-03-13 21:01:23.976 [warning] [backup tracker] suspended, ignoring content change event file:///home/steven/github/Programing-Practice/amandaWorkApp/reqtNotes.md 
+2025-03-13 21:01:24.004 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/steven/github/Programing-Practice/amandaWorkApp/reqtNotes.md 
+2025-03-13 21:01:24.014 [warning] [backup tracker] suspended, ignoring content change event untitled:/home/steven/github/Programing-Practice/amandaWorkApp/reqtNotes.md 
+2025-03-13 21:01:24.015 [warning] [backup tracker] suspended, ignoring dirty change event untitled:/home/steven/github/Programing-Practice/amandaWorkApp/reqtNotes.md 
+2025-03-13 21:01:24.030 [warning] [backup tracker] suspended, ignoring unregister event untitled:/home/steven/github/Programing-Practice/amandaWorkApp/reqtNotes.md 
+2025-03-13 21:01:25.897 [info] Started local extension host with pid 394068.
+2025-03-13 21:01:28.194 [error] Error while getting the latest version for the extension tamasfe.even-better-toml. Cannot read properties of undefined (reading 'replace')
+2025-03-13 21:01:28.195 [error] Error while getting the latest version for the extension tombi-toml.tombi. Cannot read properties of undefined (reading 'replace')
+2025-03-13 21:01:28.983 [info] [perf] Render performance baseline is 66ms
+2025-03-14 09:01:29.486 [error] Error while getting the latest version for the extension tamasfe.even-better-toml. Cannot read properties of undefined (reading 'replace')
+2025-03-14 09:01:29.487 [error] Error while getting the latest version for the extension tombi-toml.tombi. Cannot read properties of undefined (reading 'replace')
+2025-03-14 21:01:30.484 [error] Error while getting the latest version for the extension tamasfe.even-better-toml. Cannot read properties of undefined (reading 'replace')
+2025-03-14 21:01:30.485 [error] Error while getting the latest version for the extension tombi-toml.tombi. Cannot read properties of undefined (reading 'replace')
+2025-03-15 09:01:31.484 [error] Error while getting the latest version for the extension tamasfe.even-better-toml. Cannot read properties of undefined (reading 'replace')
+2025-03-15 09:01:31.485 [error] Error while getting the latest version for the extension tombi-toml.tombi. Cannot read properties of undefined (reading 'replace')
+2025-03-15 21:01:32.484 [error] Error while getting the latest version for the extension tamasfe.even-better-toml. Cannot read properties of undefined (reading 'replace')
+2025-03-15 21:01:32.485 [error] Error while getting the latest version for the extension tombi-toml.tombi. Cannot read properties of undefined (reading 'replace')
